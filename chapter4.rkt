@@ -47,4 +47,6 @@
                   Θ
                   (gradient-of obj Θ)))))
     (revise f revs θ)))
+
+;(gradient-descent obj '(0.0 0.0))
              
