@@ -22,8 +22,7 @@
          (square
           (- ys pred-ys)))))))
 
-(define obj ((l2-loss line) line-xs line-ys))
-
+; (define obj ((l2-loss line) line-xs line-ys))
 ; (obj (list -1.0 0.0))
 ; (obj (list -0.0 0.0))
 ; (obj (list 1.0 0.0))
@@ -48,5 +47,5 @@
                   (gradient-of obj Θ)))))
     (revise f revs θ)))
 
-;(gradient-descent obj '(0.0 0.0))
+; (gradient-descent ((l2-loss line) line-xs line-ys) (list 0.0 0.0))
              
