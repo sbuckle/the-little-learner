@@ -7,5 +7,5 @@
 
 (define (summed t i a)
   (cond
-    ((zero? i) a)
+    ((zero? i) (+ (tref t 0) a))
     (else (summed t (sub1 i) (+ (tref t i) a)))))
