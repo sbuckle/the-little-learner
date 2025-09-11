@@ -20,11 +20,6 @@
          (square
           (- ys pred-ys)))))))
 
-(define (revise f revs θ)
-  (cond
-    ((zero? revs) θ)
-    (else (revise f (sub1 revs) (f θ)))))
-
 (declare-hyper revs)
 
 (declare-hyper α)
