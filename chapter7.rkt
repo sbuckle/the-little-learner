@@ -49,8 +49,7 @@
     (list (- (ref P 0) (* α g))))
 
 (define lonely-gradient-descent
-  (gradient-descent
-   lonely-i lonely-d lonely-u))
+  (gradient-descent lonely-i lonely-d lonely-u))
 
 ;; (try-plane lonely-gradient-descent)
 
@@ -66,7 +65,6 @@
   (- P (* α g)))
   
 (define naked-gradient-descent
-  (gradient-descent
-   naked-i naked-d naked-u))
+  (gradient-descent naked-i naked-d naked-u))
 
 ;; (try-plane naked-gradient-descent)
