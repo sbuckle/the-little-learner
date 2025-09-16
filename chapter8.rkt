@@ -40,3 +40,8 @@
      (sampling-obj
       (l2-loss plane) plane-xs plane-ys)
      (list (tensor 0.0 0.0) 0.0))))
+
+;; (with-hypers
+;;     ((μ 0.9))
+;;   (try-plane
+;;    velocity-gradient-descent 5000))
