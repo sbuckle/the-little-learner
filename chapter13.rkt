@@ -3,6 +3,8 @@
 (require malt)
 (require malt/examples/iris)
 
+(provide iris-classifier iris-model init-θ iris-θ-shapes)
+
 (define (dense-block n m)
   (block relu
          (list
